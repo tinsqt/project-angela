@@ -139,13 +139,14 @@ header .sua-header{
 	}
 }
 .fogetpsd{
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .fogetpsd a{
 	font-family: inherit;
 	color: #404044;
 	font-weight: normal;
 	margin-bottom: 50px;
+	text-decoration: underline;
 }
 
 .fogetpsd a:hover{
@@ -157,6 +158,23 @@ header .sua-header{
 	    min-height: 60%;
 }
 
+.edit-btn-signup .login-fb i{
+	text-align: center;
+	    font-size: 60px;
+    color: #4267b2;
+}
+.edit-btn-signup .login-gp i{
+	text-align: center;
+	font-size: 60px;
+    color: #d34836;
+}
+.edit-login-fb{
+	text-align: center;
+}
+
+.edit-text-modal p{
+	padding: 10px 18px;
+}
 /*------------PRODUCT-----------*/
 .edit-thumbnail{
 	border: none;
