@@ -211,16 +211,18 @@ header .sua-header{
 }
 .edit-info-product-dt>p>a{
 	font-weight: normal;
-	padding-right: 10px;
+	/*padding-right: 10px;*/
+	font-weight: normal;
+    padding: 10px;
+    border: 1px solid black;
+
 }
-.edit-info-product-dt>p>a:active{
-	text-decoration: underline;
+.edit-info-product-dt>p>a:active, .edit-info-product-dt>p>a:focus, .edit-info-product-dt>p>a:hover{
+	text-decoration: underline !important;
 	color: black;
+	border: 2px solid red;
 	}
-.edit-info-product-dt>p>a:hover{
-	text-decoration: underline;
-	color: black;
-	}
+
 .checkbox-inline input[type=checkbox]{
 	position: relative;
 }
