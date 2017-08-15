@@ -220,7 +220,7 @@ header .sua-header{
 	color: red;
 	border: 2px solid red;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: bold
 	}
 
 .checkbox-inline input[type=checkbox]{
@@ -251,6 +251,21 @@ header .sua-header{
 	margin: 0px;
 }
 
+#sent-comment input{
+	border: none;
+	color: black;
+	font-weight: normal;
+    background: #efefef;
+    padding: 10px 25px;
+    border-radius: 7px;
+    margin-left: 7px;
+    margin-top: 20px;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.2);
+}
+#sent-comment input:hover{
+	background: #a2a2a2;
+	box-shadow: none;
+}
 
 .input[type=checkbox] {
  width: 30px;
